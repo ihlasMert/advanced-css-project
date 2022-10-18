@@ -164,9 +164,25 @@ footer a {
   padding-right: 2rem;
 }
 
-.social a{
-    padding: 0rem 0.3rem;
+.social a {
+  padding: 0rem 0.3rem;
 }
 
 /* responsive */
-
+@media screen and (min-width: 480px){
+  .right h1 {
+    font-size: 9rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  nav ul {
+    justify-content: space-around;
+  }
+  footer {
+    justify-content: space-around;
+  }
+  footer a {
+    padding: 0 0.5rem;
+  }
+}
