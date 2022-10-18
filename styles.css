@@ -140,10 +140,33 @@ h1 {
   color: transparent;
 }
 
-
 /* footer */
 
-footer{
-    position: fixed;
-    bottom: 0;
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
 }
+footer a {
+  color: var(--sec-c);
+}
+.copy {
+  color: var(--prime-c);
+  padding-left: 2rem;
+  font-size: 1.5rem;
+}
+.social {
+  padding-right: 2rem;
+}
+
+.social a{
+    padding: 0rem 0.3rem;
+}
+
+/* responsive */
+
